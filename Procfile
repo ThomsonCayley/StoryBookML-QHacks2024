@@ -1,0 +1,1 @@
+web: gunicorn app:app --keep-alive 10000000 --timeout 10000000
